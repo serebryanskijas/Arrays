@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Arrays2 {
 
 
@@ -14,8 +16,13 @@ public class Arrays2 {
             boolean flag = false;
             for (int j =0; j < count; j++)
                 if (Arrays1.arr[i] == temp[j]) flag = true;
-            if (!flag) temp[count] = Arrays1.arr[i];
+            if (!flag) {
+                temp[count] = Arrays1.arr[i];
+                count++;
+            }
         }
-
+//        System.out.println(Arrays.toString(temp)); //вывод всего массива
+        for (int i =0; i<count; i++)
+            System.out.print(temp[i]+ ", ");
     }
 }
