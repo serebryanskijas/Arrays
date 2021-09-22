@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Arrays1 {
 
-    static int size = 10;
+    static int size = 20;
     static int[] arr = new int[size];
 
     public static void main(String[] args) {
