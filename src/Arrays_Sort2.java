@@ -13,8 +13,8 @@ public class Arrays_Sort2 {
         fillRandom();
         //selectionSort();
         //combSort();
-        bogoSort();
-        printColor(0, 0);
+      //  bogoSort();
+       // printColor(0, 0);
     }
 
     public static void selectionSort() {
@@ -89,6 +89,6 @@ public class Arrays_Sort2 {
             printColor(i, index);
             swap(i, index);}
     }
-
+//Определить пропущенные числа в массиве, элементы которого не повторяются
 
 }
